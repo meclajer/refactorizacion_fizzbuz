@@ -9,6 +9,6 @@
   "author": "meclajer",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^28.0.0"
+    "jest": "^28.0.1"
   }
 }
