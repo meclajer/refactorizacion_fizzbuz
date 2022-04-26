@@ -7,5 +7,8 @@
     "test": "node ./node_modules/jest/bin/jest"
   },
   "author": "meclajer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.0.0"
+  }
 }
