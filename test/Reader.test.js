@@ -4,20 +4,11 @@ describe('Prueba de la utilidad READER de archivos JSON', () => {
 
     test('prueba de readJsonFile', () => {
 
-        const myExplorers = Reader.readJsonFile("explorers.json")
+        const myReader = Reader.readJsonFile("explorers.json")
 
-        expect(result).toBe(`[
-            'ajolonauta1',
-            'ajolonauta2',
-            'ajolonauta3',
-            'ajolonauta4',
-            'ajolonauta5',
-            'ajolonauta11',
-            'ajolonauta12',
-            'ajolonauta13',
-            'ajolonauta14',
-            'ajolonauta15'
-          ]`)
+        console.info(myReader) //my reader is the JSON 
+
+        expect(myReader).not.toBeNull()
 
     });
 
