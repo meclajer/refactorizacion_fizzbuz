@@ -1,4 +1,6 @@
-const Reader = require("../app/lib/util/Reader");
+const Reader = require("../../lib/util/Reader");
+
+
 
 describe('Prueba de la utilidad READER de archivos JSON', () => {
 
